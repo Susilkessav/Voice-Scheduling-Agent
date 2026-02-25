@@ -154,12 +154,12 @@ export default function Home() {
       <header className="header">
         <div className="header__badge">
           <span className="header__badge-dot" />
-          Wellness Partners
+          Susilkessav&apos;s Assistant
         </div>
-        <h1 className="header__title">Schedule Your Appointment</h1>
+        <h1 className="header__title">Schedule a Meeting</h1>
         <p className="header__subtitle">
-          Speak with Riley, our AI scheduling assistant, to book, reschedule, or
-          manage your appointments.
+          Speak with my AI assistant to easily schedule, reschedule, or manage
+          a meeting with me.
         </p>
       </header>
 
@@ -229,20 +229,20 @@ export default function Home() {
       {/* Features */}
       <div className="features">
         <div className="feature">
-          <span className="feature__icon">🏥</span>
-          Multi-Specialty Clinic
+          <span className="feature__icon">💻</span>
+          Developer
         </div>
         <div className="feature">
           <span className="feature__icon">📅</span>
-          Instant Scheduling
+          Instant Booking
         </div>
         <div className="feature">
           <span className="feature__icon">🎤</span>
-          Voice Assistant
+          Voice AI Assistant
         </div>
         <div className="feature">
-          <span className="feature__icon">🔒</span>
-          HIPAA Aware
+          <span className="feature__icon">⚡</span>
+          Real-time Sync
         </div>
       </div>
     </main>

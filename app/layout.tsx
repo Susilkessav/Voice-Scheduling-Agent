@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Wellness Partners — Appointment Scheduling",
+  title: "Schedule a Meeting with Susilkessav",
   description:
-    "Schedule, reschedule, or manage your appointments with Riley, our AI voice scheduling assistant at Wellness Partners multi-specialty health clinic.",
-  keywords: ["wellness partners", "appointment scheduling", "voice assistant", "health clinic"],
+    "Schedule, reschedule, or manage your meetings using my personal AI voice assistant.",
+  keywords: ["susilkessav", "appointment scheduling", "voice assistant", "developer"],
 };
 
 export default function RootLayout({
