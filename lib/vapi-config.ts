@@ -135,7 +135,7 @@ Current date/time: {{now}}`,
         voiceId: "Tara",
     },
     firstMessage:
-        "Thank you for calling. This is Susilkessav's scheduling assistant. How may I help you today?",
+        "Hi, thank you for calling! This is Susilkessav's personal assistant. How may I help you today?",
     maxDurationSeconds: 600,
     silenceTimeoutSeconds: 30,
 };
