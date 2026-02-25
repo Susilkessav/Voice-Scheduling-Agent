@@ -132,10 +132,10 @@ export default function Home() {
   };
 
   const statusDotClass = `status-dot ${callStatus === "active" || callStatus === "speaking"
-      ? "status-dot--active"
-      : callStatus === "connecting"
-        ? "status-dot--connecting"
-        : ""
+    ? "status-dot--active"
+    : callStatus === "connecting"
+      ? "status-dot--connecting"
+      : ""
     }`;
 
   // ---- Orb dynamic style from volume ----
@@ -154,12 +154,12 @@ export default function Home() {
       <header className="header">
         <div className="header__badge">
           <span className="header__badge-dot" />
-          Voice Scheduling Assistant
+          Wellness Partners
         </div>
-        <h1 className="header__title">Schedule with Your Voice</h1>
+        <h1 className="header__title">Schedule Your Appointment</h1>
         <p className="header__subtitle">
-          Just speak naturally — tell me your name, pick a date &amp; time, and
-          I&apos;ll create a calendar event for you.
+          Speak with Riley, our AI scheduling assistant, to book, reschedule, or
+          manage your appointments.
         </p>
       </header>
 
@@ -229,20 +229,20 @@ export default function Home() {
       {/* Features */}
       <div className="features">
         <div className="feature">
-          <span className="feature__icon">🗓️</span>
-          Google Calendar
+          <span className="feature__icon">🏥</span>
+          Multi-Specialty Clinic
         </div>
         <div className="feature">
-          <span className="feature__icon">🤖</span>
-          GPT-4o Powered
+          <span className="feature__icon">📅</span>
+          Instant Scheduling
         </div>
         <div className="feature">
           <span className="feature__icon">🎤</span>
-          Real-time Voice
+          Voice Assistant
         </div>
         <div className="feature">
-          <span className="feature__icon">⚡</span>
-          Instant Booking
+          <span className="feature__icon">🔒</span>
+          HIPAA Aware
         </div>
       </div>
     </main>
