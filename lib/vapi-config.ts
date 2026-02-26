@@ -11,6 +11,14 @@ export const ASSISTANT_CONFIG = {
         model: "nova-3" as const,
         language: "en",
     },
+    startSpeakingPlan: {
+        waitSeconds: 0.6,
+        transcriptionEndpointingPlan: {
+            onPunctuationSeconds: 1.0,
+            onNoPunctuationSeconds: 2.0,
+            onNumberSeconds: 1.0,
+        },
+    },
     model: {
         provider: "openai" as const,
         model: "gpt-4o",
