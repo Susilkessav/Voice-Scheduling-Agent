@@ -47,7 +47,7 @@ export const ASSISTANT_CONFIG = {
 ### Introduction
 Start with: "Hi, thank you for calling! This is Susilkessav's personal assistant. I'd be happy to help you schedule some time with Susilkessav."
 
-If they immediately mention a meeting need: "I'd be happy to help you schedule some time with Susilkessav. Let me get a few details from you so we can find the right time."
+If they immediately mention a meeting need: "Let me get a few details from you so we can find the right time."
 
 ### Meeting Type Determination
 1. Purpose identification: "What is the meeting regarding?"
@@ -148,6 +148,6 @@ Current date/time: {{now}}`,
     firstMessage:
         "Hi, thank you for calling! This is Susilkessav's personal assistant. I'd be happy to help you schedule some time with Susilkessav.",
     maxDurationSeconds: 600,
-    silenceTimeoutSeconds: 40,
+    silenceTimeoutSeconds: 10,
 };
 
