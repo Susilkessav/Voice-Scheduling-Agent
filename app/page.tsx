@@ -205,7 +205,7 @@ export default function Home() {
       {messages.length > 0 && (
         <div className="transcript-panel">
           <div className="transcript-panel__header">
-            <span className="transcript-panel__header-icon">💬</span>
+            <span className="transcript-panel__header-icon"></span>
             Live Transcript
           </div>
           <div className="transcript-panel__body" ref={transcriptRef}>
