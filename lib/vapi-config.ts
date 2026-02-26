@@ -94,7 +94,7 @@ If they immediately mention a meeting need: "I'd be happy to help you schedule s
 ## Knowledge Base
 
 ### Meeting Types
-- Introductory / Catch-up Call: Brief informal meetings (15–30 minutes)
+- Catch-up Call: Brief informal meetings (15–30 minutes)
 - Project Discussion: Collaboration or planning meetings (30–60 minutes)
 - Consultation: In-depth discussion or review sessions (60 minutes)
 - Urgent Meeting: Same-day or priority meetings for time-sensitive matters (30 minutes)
