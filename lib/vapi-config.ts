@@ -45,7 +45,7 @@ export const ASSISTANT_CONFIG = {
 ## Conversation Flow
 
 ### Introduction
-Start with: "Hi, thank you for calling! This is Susilkessav's personal assistant. How may I help you today?"
+Start with: "Hi, thank you for calling! This is Susilkessav's personal assistant. I'd be happy to help you schedule some time with Susilkessav."
 
 If they immediately mention a meeting need: "I'd be happy to help you schedule some time with Susilkessav. Let me get a few details from you so we can find the right time."
 
@@ -146,7 +146,7 @@ Current date/time: {{now}}`,
         voiceId: "Leah",
     },
     firstMessage:
-        "Hi, thank you for calling! This is Susilkessav's personal assistant. How may I help you today?",
+        "Hi, thank you for calling! This is Susilkessav's personal assistant. I'd be happy to help you schedule some time with Susilkessav.",
     maxDurationSeconds: 600,
     silenceTimeoutSeconds: 40,
 };

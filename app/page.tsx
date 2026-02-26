@@ -231,26 +231,6 @@ export default function Home() {
           </div>
         </div>
       )}
-
-      {/* Features */}
-      <div className="features">
-        <div className="feature">
-          <span className="feature__icon">💻</span>
-          Developer
-        </div>
-        <div className="feature">
-          <span className="feature__icon">📅</span>
-          Instant Booking
-        </div>
-        <div className="feature">
-          <span className="feature__icon">🎤</span>
-          Voice AI Assistant
-        </div>
-        <div className="feature">
-          <span className="feature__icon">⚡</span>
-          Real-time Sync
-        </div>
-      </div>
     </main>
   );
 }
