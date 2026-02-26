@@ -34,6 +34,33 @@ This project uses Vapi's built-in Google Calendar integration rather than a cust
 3. During the call, once the user confirms their name, date, time, and optional meeting title, Vapi calls the tool in real time and the event is created immediately.
 4. The webhook at `/api/vapi/webhook` receives the call status and tool call results, which can be used for logging or any follow-up actions.
 
+### Example Logs: Successful Event Creation
+
+When the user confirms the meeting details, Vapi automatically triggers the Google Calendar integration. Here is a real payload showing the AI passing the exact arguments to the function, and Google Calendar returning the confirmed event link:
+
+```json
+// Vapi calls the predefined Calendar tool
+{
+  "role": "tool_calls",
+  "toolCalls": [
+    {
+      "type": "function",
+      "function": {
+        "name": "google_calendar_tool",
+        "arguments": "{\n  \"summary\": \"Catch-up Call with Sam\",\n  \"timeZone\": \"America/New_York\",\n  \"startDateTime\": \"2026-02-26T14:00:00\",\n  \"endDateTime\": \"2026-02-26T14:30:00\",\n  \"attendees\": [\"susilkessavsb@gmail.com\"]\n}"
+      }
+    }
+  ]
+}
+
+// Google Calendar authenticates and returns the successful event link
+{
+  "name": "google_calendar_tool",
+  "role": "tool_call_result",
+  "result": "{\n  \"status\": \"confirmed\",\n  \"htmlLink\": \"https://www.google.com/calendar/event?eid=...\",\n  \"summary\": \"Catch-up Call with Sam\",\n  \"start\": {\n    \"dateTime\": \"2026-02-26T14:00:00-05:00\",\n    \"timeZone\": \"America/New_York\"\n  },\n  \"attendees\": [\n    {\n      \"email\": \"susilkessavsb@gmail.com\",\n      \"responseStatus\": \"needsAction\"\n    }\n  ]\n}"
+}
+```
+
 No direct Google API calls are made from the app itself — Vapi handles the OAuth token, the API request, and error handling end to end.
 
 ---
