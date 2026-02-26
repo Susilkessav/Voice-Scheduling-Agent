@@ -6,8 +6,7 @@ A real-time voice assistant that schedules meetings by collecting your name, pre
 ![Screenshot of the App](images/Website_screenshot.png)
 
 ### Demo Screen Recording
-*(Add a `.gif` or `.mp4` link of your app in action here)*
-![Demo Video](images/demo_recording.gif)
+https://drive.google.com/file/d/1QeG3a26TDME5Wf7u1FDg6e6aZkx5S7K8/view?usp=sharing)
 
 Live Demo:
 ```bash
