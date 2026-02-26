@@ -5,6 +5,10 @@ A real-time voice assistant that schedules meetings by collecting your name, pre
 
 ![Screenshot of the App](images/Website_screenshot.png)
 
+### Demo Screen Recording
+*(Add a `.gif` or `.mp4` link of your app in action here)*
+![Demo Video](images/demo_recording.gif)
+
 Live Demo:
 ```bash
 https://voice-scheduling-agent-five.vercel.app/
