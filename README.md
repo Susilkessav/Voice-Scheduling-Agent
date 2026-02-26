@@ -3,7 +3,7 @@
 A real-time voice assistant that schedules meetings by collecting your name, preferred date & time, and an optional meeting title — then creates a real Google Calendar event.
 **Tech Stack:** [Vapi](https://vapi.ai) · Next.js · Google Calendar · Vercel
 
-![Screenshot of the App](/Users/susil/.gemini/antigravity/brain/5954e35b-2bf9-4850-a18d-8291ec6025e0/homepage_idle_state_1772077575088.png)
+![Screenshot of the App](images/Website_screenshot.png)
 
 Live Demo:
 ```bash
