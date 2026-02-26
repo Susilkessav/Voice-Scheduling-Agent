@@ -105,8 +105,14 @@ export default function Home() {
       setMessages([]);
       try {
         const assistantId = process.env.NEXT_PUBLIC_VAPI_ASSISTANT_ID;
+        const overrides = {
+          variableValues: {
+            now: new Date().toLocaleString()
+          }
+        };
+
         if (assistantId) {
-          await vapi.start(assistantId);
+          await vapi.start(assistantId, overrides);
         } else {
           // Use inline assistant config
           await vapi.start(ASSISTANT_CONFIG as Parameters<typeof vapi.start>[0]);
